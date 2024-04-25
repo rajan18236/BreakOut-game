@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.score {
+    font-size: 20px;
+}
+
+#reset {
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+.blocks {
+    width: 530px;
+    height: 450px;
+    background-color: beige;
+
+}
+.block{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border: 5px solid rgb(5, 5, 5);
+    background-color: blue;
+}
+.user{
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    background-color: grey;
+}
+.ball{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid rgb(12, 11, 11);
+    background-color: rgb(210, 22, 22);
+}
+.hide{
+    display: none;
+}
